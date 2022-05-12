@@ -1,0 +1,6 @@
+# integrate sin(x) from zero to 3.14159265, in 1000000 steps across 1000 threads!
+sin(x),0,3.14159265,1000000,1000
+# Calculate pi as the 4 times the area of a quarter unit circle - slow
+4*sqrt(1-xˆ2),0,1,1000000,1
+# Calculate pi as the 4 times the area of a quarter unit circle - fast!
+4*sqrt(1-xˆ2),0,1,1000000,100

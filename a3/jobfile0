@@ -1,0 +1,6 @@
+#ls,-,-,0
+#cat,/etc/fstab,out.txt
+ls,-,@pipe1,0
+sort,@pipe1,ls.out,0
+#jf0a_program,jf0a_stdin,jf0a_stdout,1,jf0a_arg1,jf0a_arg2
+#jf0b_program,jf0b_stdin,jf0b_stdout,2,jf0b_arg1,jf0b_arg2
